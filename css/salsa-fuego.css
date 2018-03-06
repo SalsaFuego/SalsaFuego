@@ -1,0 +1,244 @@
+/*
+ * Embed Google Fonts
+ */
+
+	@import url('https://fonts.googleapis.com/css?family=Bevan|Rye|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i|Special+Elite');
+
+
+
+/*
+ * HTML Elements
+ */
+
+	body {
+		background: #ffc63e;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Bevan', cursive;
+		letter-spacing: .125rem;
+	}
+	p {
+		font-family: 'Source Sans Pro', sans-serif;
+	}
+
+
+
+/*
+ * Display
+ */
+
+	.display-block {
+		display: block;
+	}
+	.display-inine {
+		display: inline;
+	}
+	.display-inine-block {
+		display: inline-block;
+	}
+	.display-flex {
+		display: flex;
+	}
+
+
+
+/*
+ * Fonts
+ */
+
+	.bevan {
+		font-family: 'Bevan', cursive;
+	}
+	.source-sans-pro {
+		font-family: 'Source Sans Pro', sans-serif;
+	}
+	.rye {
+		font-family: 'Rye', cursive;
+	}
+	.special-elite {
+		font-family: 'Special Elite', cursive;
+	}
+
+
+
+/*
+ * Colors
+ */
+
+	/* Named shades of white */
+	.color-antiquewhite {
+		color: AntiqueWhite;
+	}
+	.color-floralwhite {
+		color: FloralWhite;
+	}
+	.color-ghostwhite {
+		color: GhostWhite;
+	}
+	.color-navajowhite {
+		color: NavajoWhite;
+	}
+	.color-white {
+		color: White;
+	}
+	.color-whitesmoke {
+		color: WhiteSmoke;
+	}
+
+	/* Salsa Fuego color palette */
+	.color-salsa-fuego-black {
+		color: #231f20;
+	}
+	.color-salsa-fuego-white {
+		color: #fffef9;
+	}
+	.color-salsa-fuego-red {
+		color: #b23028;
+	}
+	.color-salsa-fuego-orange {
+		color: #d96931;
+	}
+	.color-salsa-fuego-yellow {
+		color: #ffc63e;
+	}
+	.color-salsa-fuego-green {
+		color: #007660;
+	}
+	.color-salsa-fuego-mint {
+		color: #5b9d7a;
+	}
+	.color-salsa-fuego-sand {
+		color: #e0bb7f;
+	}
+
+
+
+/*
+ * Margins
+ */
+
+	.mb-6 {
+		margin-bottom: 4.5rem;
+	}
+	.ml-6 {
+		margin-left: 4.5rem;
+	}
+	.mr-6 {
+		margin-right: 4.5rem;
+	}
+	.mt-6 {
+		margin-top: 4.5rem;
+	}
+	.mb-7 {
+		margin-bottom: 6rem;
+	}
+	.ml-7 {
+		margin-left: 6rem;
+	}
+	.mr-7 {
+		margin-right: 6rem;
+	}
+	.mt-7 {
+		margin-top: 6rem;
+	}
+	.mb-8 {
+		margin-bottom: 7.5rem;
+	}
+	.ml-8 {
+		margin-left: 7.5rem;
+	}
+	.mr-8 {
+		margin-right: 7.5rem;
+	}
+	.mt-8 {
+		margin-top: 7.5rem;
+	}
+	.mb-9 {
+		margin-bottom: 9rem;
+	}
+	.ml-9 {
+		margin-left: 9rem;
+	}
+	.mr-9 {
+		margin-right: 9rem;
+	}
+	.mt-9 {
+		margin-top: 9rem;
+	}
+	.mb-10 {
+		margin-bottom: 10.5rem;
+	}
+	.ml-10 {
+		margin-left: 10.5rem;
+	}
+	.mr-10 {
+		margin-right: 10.5rem;
+	}
+	.mt-10 {
+		margin-top: 10.5rem;
+	}
+	.mb-11 {
+		margin-bottom: 12rem;
+	}
+	.ml-11 {
+		margin-left: 12rem;
+	}
+	.mr-11 {
+		margin-right: 12rem;
+	}
+	.mt-11 {
+		margin-top: 12rem;
+	}
+
+
+
+/*
+ * Widths
+ */
+
+	.width-100-percent {
+		width: 100%;
+	}
+	.width-75-percent {
+		width: 75%;
+	}
+	.width-50-percent {
+		width: 50%;
+	}
+	.width-25-percent {
+		width: 25%;
+	}
+
+
+
+/*
+ * Max-widths
+ */
+
+	.max-width-15-pixels {
+		max-width: 15px;
+	}
+	.max-width-30-pixels {
+		max-width: 30px;
+	}
+	.max-width-45-pixels {
+		max-width: 45px;
+	}
+
+
+
+.hero {
+	background-color: inherit;
+	background-image: url(../images/jumbotron/AdobeStock_193869872_Preview.jpeg);
+	background-size: cover;
+	padding: 2rem 1rem;
+}
+@media (min-width: 576px) {
+	.hero {
+		padding: 4rem 2rem;
+	}
+}
+.logo {
+	max-width: 280px;
+	width: 100%;
+}
