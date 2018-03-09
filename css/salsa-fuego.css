@@ -250,7 +250,7 @@
 
 	.hero {
 		background-color: inherit;
-		background-image: url(../images/jumbotron/AdobeStock_136832969_Preview.jpeg);
+		background-image: url(../images/jumbotron/jumbotron-1600x800-v01.jpg);
 		background-size: cover;
 		background-position: center bottom;
 		background-repeat: no-repeat;
@@ -265,7 +265,7 @@
 	.parallax {
 		background-attachment: fixed;
 		background-color: inherit;
-		background-image: url(../images/jumbotron/AdobeStock_136833074_Preview.jpeg);
+		background-image: url(../images/jumbotron/jumbotron-1600x800-v01.jpg);
 		background-size: cover;
 		background-position: center bottom;
 		background-repeat: no-repeat;
@@ -438,7 +438,7 @@
 
 
 /*
- * .display-* styles
+ * .btn-primary-* styles
  */
 
 	.btn-primary {
@@ -473,6 +473,16 @@
 	.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 	.show > .btn-primary.dropdown-toggle:focus {
 		box-shadow: 0 0 0 0.2rem rgba(222, 121, 66, 0.5);
+	}
+
+
+
+/*
+ * .jumbotron-fluid styles
+ */
+
+	.jumbotron-fluid {
+		text-shadow: 0.2rem 0.2rem 0.2rem #231f20;
 	}
 
 
